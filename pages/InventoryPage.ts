@@ -4,11 +4,11 @@ export class InventoryPage {
 
     constructor(private page: Page) {}
 
-    async obterTituloPagina() {
+    obterTituloPagina() {
         return this.page.locator('.title');
     }
 
-    async obterProdutos() {
+    obterProdutos() {
         return this.page.locator('.inventory_item');
     }
 
